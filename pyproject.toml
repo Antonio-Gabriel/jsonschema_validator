@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python_validator"
+version = "0.1.0"
+description = "work with validator similar to yup of javascript, here is pyzoo that i to be test right now"
+authors = ["Antonio Gabriel <antoniocamposgabriel@gmail.com>"]
+license = "MTI"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jsonschema = "^4.16.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
